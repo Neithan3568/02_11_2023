@@ -1,0 +1,30 @@
+{
+  "name": "devcamp-2687351",
+  "version": "1.0.0",
+  "description": "Proyect para la clase de JSBackend, Instructor CBO, SENA CGMLTI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server",
+    "data:connect": "node config/db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neithan3568/devcamp-2687351.git"
+  },
+  "author": "Neithan s  y Adriana p",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Neithan3568/devcamp-2687351/issues"
+  },
+  "homepage": "https://github.com/Neithan3568/devcamp-2687351#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
